@@ -1,0 +1,42 @@
+{
+  "name": "Mario",
+  "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
+  "keywords": [
+    "telegram",
+    "best",
+    "group",
+    "manager",
+    "3"
+  ],
+  "repository": "https://github.com/reejit/GroupButler",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable env variables. But, you need to understand the code to know what to set here!",
+      "value": "ANYTHING"
+    },
+    "TG_TOKEN": {
+      "description": "Your bot token, as a string.",
+      "value": ""
+    },
+    "LOG_CHAT": {
+      "description": "An integer of consisting of your owner ID",
+      "value": "20516707"
+    },
+    "SUPERADMINS": {
+      "description": "Your username",
+      "value": "SonOfLars"
+    },
+    "LOG_ADMIN": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
+      "value": "ANYTHING"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ]
+}
