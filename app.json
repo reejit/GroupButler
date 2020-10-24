@@ -26,7 +26,7 @@
       "description": "Your username",
       "value": "SonOfLars"
     },
-    "LOG_ADMINS": {
+    "LOG_ADMIN": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
       "value": "ANYTHING"
     }
