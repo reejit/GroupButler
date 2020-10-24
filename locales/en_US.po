@@ -755,7 +755,7 @@ msgstr ""
 #: lua/groupbutler/plugins/help.lua:23
 #, lua-format
 msgid "Hello %s 👋🏼, nice to meet you!\n"
-"I'm Group Butler, the first administration bot using the official Bot API.\n\n"
+"I'm Mr.Manager, the first administration bot using the official Bot API.\n\n"
 "*I can do a lot of cool stuffs*, here's a short list:\n"
 "• I can *kick or ban* users\n"
 "• You can use me to set the group rules\n"
@@ -769,10 +769,10 @@ msgstr ""
 
 #: lua/groupbutler/plugins/help.lua:36
 msgid "This bot works only in supergroups.\n\n"
-"To work properly, [it needs to be admin in your group](https://telegram.me/GroupButler_ch/104), so it can kick or ban people if needed.\n"
+"To work properly, it needs to be admin in your group so it can kick or ban people if needed.\n"
 "Only the group owner can promote it :)\n\n"
 "You can use `/, ! or #` to trigger a command.\n\n"
-"Group Butler saves the adminlist of a group in its databse to avoid to send too many requests to Telegram.\n"
+"Mr Manager saves the adminlist of a group in its databse to avoid to send too many requests to Telegram.\n"
 "This list is updated every 5 hours, so there could be some differences between who the bot thinks are the admins and who the admins actually are, if during the 5 hours timeframe some users have been promoted/demoted.\n"
 "It's possible to force the bot to update its adminlist with `/cache`.\n\n"
 "Remember: you have to use commands  *in the group*, unless they are specifically designed for private chats (see \"private\" tab)."
